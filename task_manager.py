@@ -16,9 +16,9 @@ import os
 # File where tasks are stored
 TASK_FILE="tasks.txt"
 
-#-------------------------
+#-----------------------------
 #Task file handling functions
-#-------------------------
+#-----------------------------
 def load_tasks():
     tasks=[]
     if(os.path.exists(TASK_FILE)):
@@ -34,9 +34,9 @@ def save_tasks(tasks):
             status="done" if task["done"] else "not_done"
             f.write(f"{task['text']}||{status}\n")
 
-#----------------------------
+#----------------
 #Task operations
-#----------------------------
+#----------------
 def display_tasks(tasks):
     if not tasks:
         print(f"No tasks available!")
