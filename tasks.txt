@@ -1,0 +1,5 @@
+Learn Python||not_done
+cleaning||not_done
+cook||not_done
+clean||not_done
+study||not_done
