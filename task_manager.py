@@ -13,7 +13,12 @@ Author:Shrestha
 """
 import os
 
+# File where tasks are stored
 TASK_FILE="tasks.txt"
+
+#-------------------------
+#Task file handling functions
+#-------------------------
 def load_tasks():
     tasks=[]
     if(os.path.exists(TASK_FILE)):
@@ -29,6 +34,9 @@ def save_tasks(tasks):
             status="done" if task["done"] else "not_done"
             f.write(f"{task['text']}||{status}\n")
 
+#----------------------------
+#Task operations
+#----------------------------
 def display_tasks(tasks):
     if not tasks:
         print(f"No tasks available!")
@@ -55,7 +63,7 @@ def task_manager():
             case "1":
                 text = input("Enter your task: ").strip()
                 if text:
-                    tasks.append({"text" : text, "done" : False})   
+                    tasks.append({"text" : text, "done" : False})  
                     save_tasks(tasks)
                 else: 
                     print("Task cannot be empty")
