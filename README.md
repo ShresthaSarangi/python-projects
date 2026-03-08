@@ -1,4 +1,4 @@
-*Python Projects*
+PYTHON PROJECTS
 
 This repository contains small Python projects I built while learning Python.
 These projects helped me practice programming fundamentals such as problem solving, working with user input, and building command-line applications.
