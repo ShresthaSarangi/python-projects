@@ -1,40 +1,101 @@
 Python Projects
 
-This repository contains small Python projects built while learning programming and improving problem-solving skills.
+A collection of beginner-friendly Python projects created while learning Python programming.
+
+These projects focus on building practical programming skills such as problem solving, working with user input, file handling, and basic algorithms.
+
+---
 
 Projects
 
-1. Terminal Task Manager
+1. Task Manager
 
-A command-line task manager that allows users to add, view, and manage tasks directly from the terminal.
+A simple command-line task manager that allows users to add, view, and remove tasks.
 
 Features
 
-- Add new tasks
+- Add tasks
 - View task list
-- Save tasks to a file
-- Simple terminal interface
+- Remove completed tasks
+
+Skills Used
+
+- Lists
+- Loops
+- User input handling
+
+---
 
 2. Password Strength Checker
 
-A tool that analyzes a password and provides feedback on its strength along with suggestions to improve security.
+A program that checks how strong a password is based on several security rules.
 
 Features
 
 - Checks password length
-- Detects numbers, uppercase, lowercase, and special characters
-- Provides suggestions for stronger passwords
+- Detects uppercase and lowercase letters
+- Detects numbers and special characters
+- Provides feedback to improve password strength
+
+Skills Used
+
+- String handling
+- Conditional statements
+- Basic security logic
+
+---
+
+3. Caesar Cipher Tool
+
+A command-line encryption tool that encrypts and decrypts messages using the Caesar Cipher algorithm.
+
+Features
+
+- Encrypt text messages
+- Decrypt encrypted messages
+
+
+Example
+
+Encrypted message using key 3:
+
+hello → khoor
+
+Skills Used
+
+- Python functions
+- Error handling
+- Command-line interface
+
+---
 
 Technologies Used
 
-- Python
+- Python 3
 - Command Line Interface (CLI)
-- File Handling
+- Git & GitHub
 
-Future Projects
+---
 
-More projects will be added as I continue learning and building new tools.
+How to Run the Projects
+
+1. Clone the repository
+
+git clone https://github.com/ShresthaSarangi/python-projects.git
+
+2. Navigate to the project folder
+
+cd python-projects
+
+3. Run any project
+
+Example:
+
+python caesar_cipher/caesar_cipher.py
+
+---
 
 Author
 
-Built by Shrestha Sarangi while learning Python and software development.
+Shrestha Sarangi
+Learning Python and building small projects to improve programming skills.
